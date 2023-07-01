@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ttsx/seckill-service/seckill-service.iml" filepath="$PROJECT_DIR$/ttsx/seckill-service/seckill-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx.iml" filepath="$PROJECT_DIR$/ttsx/ttsx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-alipay/ttsx-alipay.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-alipay/ttsx-alipay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-background/ttsx-background.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-background/ttsx-background.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-entity/ttsx-entity.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-entity/ttsx-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-feign/ttsx-feign.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-feign/ttsx-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-foods/ttsx-foods.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-foods/ttsx-foods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-gateway/ttsx-gateway.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-gateway/ttsx-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-index/ttsx-index.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-index/ttsx-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-order/ttsx-order.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-order/ttsx-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsx/ttsx-user/ttsx-user.iml" filepath="$PROJECT_DIR$/ttsx/ttsx-user/ttsx-user.iml" />
+    </modules>
+  </component>
+</project>
