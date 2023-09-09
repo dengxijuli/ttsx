@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: websocket-service
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848 #nacos中心地址
+        username: nacos
+        password: nacos
+        file-extension: yml # 配置文件格式
+        namespace: ttsx-prod
+        shared-configs:
+          - data-id: ttsx-redis.yml
+          - data-id: ttsx-mysql.yml
+        prefix: ttsx-public
+  profiles:
+    active: prod # 环境标识
+server:
+  port: 2000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
