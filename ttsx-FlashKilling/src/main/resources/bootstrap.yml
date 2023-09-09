@@ -1,0 +1,33 @@
+
+server:
+    port: 10011
+    tomcat:
+        connection-timeout: 60000
+spring:
+    cloud:
+        nacos:
+            config:
+                server-addr: localhost:8848
+                username: nacos
+                password: nacos
+                #namespace  -> group -> 文件
+                namespace: ttsx-prod
+                group: DEFAULT_GROUP
+                #文件  res-foods-prod.yml
+                prefix: ttsx-public
+                file-extension: yml
+                # 用于共享的配置文件
+                shared-configs:
+                    - {dataId: ttsx-mysql.yml,refresh: true}   #
+                    #          - mysql119.yml
+                    - {dataId: ttsx-redis.yml,refresh: true}   #
+                    - {data-id: seata-server.yml,refresh: true,group: SEARA_GROUP}
+                    - {data-id: ttsx-alipay.yml,refresh: true }
+    profiles:
+        active: prod #它用来指定当前应用的配置环境
+    application:
+        name: ttsx-FlashKilling
+
+
+
+
