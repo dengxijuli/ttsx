@@ -8,12 +8,24 @@
 `tstx mall`项目是一套电商系统，包括前台系统与后台系统,基于微服务实现，采用Docker容器化部署。
 项目特色：提供了相对完善的秒杀服务解决方案
 
+## 项目功能
+秒杀服务：利用乐观锁和redis预库存解决超卖和超买,elatis-job定时上架秒杀商品，RocketMQ实现削峰填谷和超时订单，redis和mysql库存回补和利用canal保证一致性，利用webSocket与浏览器及时通信，seata保证分布式事务
+具体细节见：（博客地址）
+后台系统:用户管理（封解禁），商品管理（增删改查），订单管理，商品销量echarts可视化
+支付服务：积分和支付宝支付以及退款
+订单服务：下订单，取消订单
+商品服务：评论，商品查询
+用户服务：登陆注册，忘记密码
+
+
 ### 项目演示
 项目演示地址：尚在部署.....
 
 ## 系统架构图
 
 ![image](https://github.com/dengxijuli/ttsx/assets/132116099/a3e533fb-9ea5-46e2-bb53-a7b34d018ddc)
+
+
 
 
 ### 组织结构
@@ -82,6 +94,8 @@ ttsx
 | nacos      | 2.2.1 | https://github.com/alibaba/nacos/releases                |
 | RocketMQ      |4.5.2 |https://rocketmq.apache.org/zh/download                  |
 | elastic-job                  | 2.1.5    | https://shardingsphere.apache.org/elasticjob/current/cn/downloads/                  |
+
+
 
 
 
